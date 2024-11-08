@@ -8,6 +8,8 @@ import DesignSystem
 import SwiftUI
 
 public struct FacilityBookingMainView: View {
+    public init() { }
+    
     public var body: some View {
         VStack {
             HabitapTextField()
